@@ -64,7 +64,7 @@ def Email_tool(news, email):
                     "available tools. Always call the Gmail tool to send "
                     "the email instead of jus drafting it."
                 ),
-            }
+            },
             {"role": "user", "content": task},
         ],
     )
