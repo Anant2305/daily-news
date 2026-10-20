@@ -42,7 +42,7 @@ def Email_tool(news, email):
     openai_client = OpenAI()
 
     tolls = composio.tools.get(
-        user_id='me'
+        user_id='me',
         tools=["GMAIL_SEND_EMAIL"],
     )
 
