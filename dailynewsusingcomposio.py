@@ -28,7 +28,7 @@ async def News_Tool():
   )
   return result1.final_output
 
-def Email_tool(news, email);
+def Email_tool(news, email):
 
   # Initialise Composio SDK with OpenAI provider
   composio = Composio[Any](
