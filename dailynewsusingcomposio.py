@@ -113,7 +113,7 @@ if st.session_state["news"]:
       if email:
         with st.spinner("Sending email..."):
           try:
-            result = Email_tool(st.session_state["news"], email))
+            result = Email_tool(st.session_state["news"], email)
             if result:
               st.success("Email sent")
             else:
