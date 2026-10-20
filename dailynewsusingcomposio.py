@@ -109,5 +109,5 @@ if st.session_state["news"]:
               st.error("Failed to send email")
           except Exception as e:
             st.error(f"Failed to send email: {e}")
-    else:
-      st.warning("Please fetch the news first")
+      else:
+        st.warning("Please fetch the news first")
