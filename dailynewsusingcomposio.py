@@ -1,8 +1,8 @@
 import streamlit as st
-from openai import OpenAI
 import os
 import asyncio
 
+from openai import OpenAI
 from composio import Composio
 from composio_openai import OpenAIResponsesProvider
 from agents import Agent, Runner, WebSearqchTool
