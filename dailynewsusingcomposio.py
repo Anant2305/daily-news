@@ -26,7 +26,7 @@ async def News_Tool():
           "the source and date of the news"
       ),
   )
-  retrurn result1.final_output
+  return result1.final_output
 
 def Email_tool(news, email);
 
