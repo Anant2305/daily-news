@@ -41,7 +41,7 @@ def Email_tool(news, email):
   try:
     openai_client = OpenAI()
 
-    tolls = composio.tools.get(
+    tools = composio.tools.get(
         user_id='me',
         tools=["GMAIL_SEND_EMAIL"],
     )
@@ -49,7 +49,7 @@ def Email_tool(news, email):
     subject = "Daily AI News by Anant's Agent"
     body = news
     task = (
-        f"Send an email {email} with the bubject '{subject} and the body "
+        f"Send an email {email} with the subject '{subject} and the body "
         f"containing the following news: {body}"
     )
     st.write("no problem with the request params")
