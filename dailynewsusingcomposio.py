@@ -5,7 +5,7 @@ import asyncio
 from openai import OpenAI
 from composio import Composio
 from composio_openai import OpenAIResponsesProvider
-from agents import Agent, Runner, WebSearqchTool
+from agents import Agent, Runner, WebSearchTool
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
